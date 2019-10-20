@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Brian Mitchell's personal website</title>
+  <meta name="description" content="The personal website of Brian Mitchell.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Brian Mitchell">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="youplants-icon" sizes="180x180" href="/youplants-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#55da2c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+  <body>
+      <h2>{{ page.title }}</h2>
+      {{page.content | safe}}
+  </body>
+  <footer class="footer">
+    <hr />
+    <p>&copy; 2019 Brian Mitchell. All content on this site is available under a
+    <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC0
+    license</a>. 
+  </footer>
+</html>

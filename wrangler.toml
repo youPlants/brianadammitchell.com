@@ -1,0 +1,10 @@
+name = "website"
+type = "webpack"
+zone_id = "ddc892ce9ac03393bdbba557f7ce5573"
+account_id = "2a0209f2aa0d67ba4e1670c98c69342a"
+workers_dev = false
+route = "https://www.brianadammitchell.com/*"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
