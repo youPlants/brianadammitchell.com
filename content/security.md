@@ -1,7 +1,7 @@
 +++
 title = "Security"
 +++
-You can email me at [youplants@gmail.com].
+You can email me at [youplants.com@gmail.com].
 
 If you need to get a hold of me privately in some way, you can do so with my
 PGP key, as listed below. I'm also [on Keybase], if that makes things easier.
